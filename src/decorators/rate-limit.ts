@@ -1,11 +1,11 @@
-import { HttpController } from "@yellow-snow/http";
+import { HttpController } from "@wiser/plexio-core";
 import { Request, Response } from "express";
 import { Injector } from "tsnode-di";
 import { RateLimitService } from "../services/rate-limit-service";
 
 export function RateLimit() {
   const rate_limit_service = Injector.resolve<RateLimitService>(RateLimitService);
-  return (_target: HttpController, _key: string, descriptor: PropertyDescriptor) => {
+  return (_target: any, _key: string, descriptor: PropertyDescriptor) => {
     const method = descriptor.value;
     descriptor.value = async function(...args: any[]) {
       try {
