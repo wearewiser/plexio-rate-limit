@@ -16,8 +16,7 @@
   },
   "author": "John A. Fedoruk <johnny@johnfedoruk.ca> (http://johnfedoruk.ca)",
   "dependencies": {
-    "@yellow-snow/core": "0.0.3",
-    "@yellow-snow/http": "0.0.3",
+    "@wiser/plexio-core": "^1.2.0",
     "express": "^4.16.3",
     "tsnode-di": "0.0.3"
   },
