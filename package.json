@@ -1,6 +1,6 @@
 {
   "name": "@wiser/plexio-rate-limit",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Rate Limit | Yellow Snow",
   "main": "./lib/index",
   "types": "./lib/index",
