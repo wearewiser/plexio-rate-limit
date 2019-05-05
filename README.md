@@ -1,4 +1,4 @@
-Rate Limit | Yellow Snow
+Rate Limit | Plexio
 
-A rate limiting decorator to apply to HttpController classes from [Yellow Snow Http](https://github.com/yellow-snow/http).
+A rate limiting decorator to apply to HttpController classes from [Plexio](https://github.com/wearewiser/plexio-core).
 
